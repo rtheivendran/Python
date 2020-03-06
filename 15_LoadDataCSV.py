@@ -33,6 +33,7 @@ filename = './Data/pima-indians-diabetes.csv'
 dataset = load_csv(filename)
 if dataset != None:
     print ("Loaded data file {0} with {1} rows and {2} columns".format(filename,len(dataset), len(dataset[0])))
+    #print(dataset)
 
 dataset = load_csv_with(filename)
 if dataset != None:

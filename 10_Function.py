@@ -122,7 +122,7 @@ def printinfo(name, age=30):
     age += 10
     print("Name: ", name)
     print("Age ", age)
-    return;
+    return
 
 age = 40
 printinfo(name="Ramesh")
